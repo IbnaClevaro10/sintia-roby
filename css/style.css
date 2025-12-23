@@ -1,0 +1,372 @@
+body {
+    font-family: "DM Sans";
+    color: rgb(128, 29, 29);
+    background-color: rgb(128, 29, 29);
+    overflow-x: hidden !important;
+    }
+section {
+    overflow-x: hidden ;
+}
+* {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+
+    /* .prewed {
+        width: 900px !important;
+        height: 301px !important;
+
+    } */
+    .bg-red {
+    background-color: rgb(128, 29, 29);
+    }
+
+    .bg-cream {
+    background-color: rgb(250, 205, 147) ;
+    }
+    .letter-4 {
+    letter-spacing: 4px;
+    }
+
+    .letter-1 {
+    letter-spacing: 2px;
+    }
+    .font-playfair {
+    font-family: "Playfair Display", serif;
+    }
+
+    .secondary-color {
+    background-color: rgb(255, 217, 168);
+    }
+
+    .text-secondary {
+    color: rgb(255, 217, 168) !important;
+    }
+
+    .text-primary {
+    color: rgb(128, 29, 29) !important;
+    }
+
+    .flower-left,
+    .flower-right {
+    position: absolute;
+    width: 180px;
+    animation: float 5s infinite;
+    }
+
+    .title-test {
+        font-weight: bold;
+    }
+    .formPesan {
+        background-color: #aaaaaa00;
+        border: 2px solid rgb(128, 29, 29);
+    }
+
+    .flower-left {
+    position: absolute;
+    left: 10px;
+    }
+
+    .flower-right {
+    right: 10px;
+    }
+
+    .hero-img {
+    width: 300px;
+    }
+
+    .bg-custom {
+        background-color: rgb(255, 217, 168);
+    }
+
+    .timeline {
+        list-style: none;
+        padding: 0;
+        position: relative;
+    }
+    .timeline:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 2px;
+        background: rgb(128, 29, 29);
+        left: 50%;
+        margin-left: -1px;
+    }
+    .timeline > li {
+        position: relative;
+        min-height: 100px;
+        margin-bottom: 50px;
+    }
+    .timeline .timeline-badge {
+        color: white;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 1.2em;
+        text-align: center;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        margin-left: -25px;
+        background-color: #e67e22;
+        border-radius: 50%;
+    }
+    .timeline .timeline-panel {
+        position: relative;
+        width: 46%;
+        padding: 20px;
+        border-radius: 2px;
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .timeline > li.timeline-inverted .timeline-panel {
+        float: right;
+    }
+    .timeline > li:not(.timeline-inverted) .timeline-panel {
+        float: left;
+    }
+    .timeline .timeline-heading h4 {
+        margin-top: 0;
+    }
+    .timeline .timeline-body p {
+        margin-bottom: 0;
+    }
+
+    .img-container {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 50% 50% 0 0; /* Bentuk pintu */
+    overflow: hidden;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .first-img {
+        border: 5px solid rgb(128, 29, 29);    ;
+    }
+
+    .img-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50% 50% 0 0;
+    border: 5px solid rgb(255, 217, 168);
+    }
+
+    .person-info {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #6c757d;
+    margin-top: 10px;
+    }
+
+    .couple-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    }
+
+    .border-secondary {
+    border-top: 1px solid rgb(255, 217, 168) !important;
+    }
+
+    .second-title {
+        margin-top: 80px !important;
+    }
+
+    .card {
+        background-color: rgb(255, 217, 168) !important;
+    }
+
+    .heart-icon {
+    font-size: 100px !important;
+    }
+
+    .btn-link:hover a {
+    text-decoration: underline !important;
+    }
+
+    .btn-custom2 {
+        background-color: rgb(255, 217, 168)!important;
+        border-radius: 10px !important;
+        font-weight: bold;
+        color: rgb(128, 29, 29);
+    }
+
+    .btn-custom2:hover {
+        background-color: rgb(250, 205, 147)!important;
+    }
+
+    .btn-custom {
+        background-color: rgb(128, 29, 29) !important;
+        border-radius: 20px !important;
+    }
+
+    .btn-custom:hover {
+        background-color: rgb(143, 74, 74) !important;
+    }
+
+    .divider {
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+    }
+    .divider::before,
+    .divider::after {
+    content: "";
+    width: 35%;
+    height: 3px;
+    background-color: rgb(255, 217, 168);
+    position: absolute;
+    top: 50%;
+    }
+    .divider::before {
+    left: 0;
+    }
+    .divider::after {
+    right: 0;
+    }
+    .divider span {
+    background-color: white;
+    padding: 0 10px;
+    }
+
+    .swiper {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Menghindari gambar gepeng */
+    }
+
+
+
+    .swiper-slide img {
+    width: 100%;
+    border-radius: 0px;
+    height: auto;
+    margin: auto;
+    display: block;
+    }
+
+    /* Countdown */
+    .countdown {
+    border: 1px solid rgb(128, 29, 29);
+    background-color: rgba(250, 242, 200, 0.733); /* Transparansi background */
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    }
+
+    .countdown div {
+    flex: 1;
+    }
+
+    .countdown div span {
+    display: block;
+    font-size: 18px;
+    color: #666;
+    }
+
+    /* Mengubah warna pagination */
+    .swiper-pagination-bullet {
+    background-color: #ffffff; /* Warna titik pagination default */
+    opacity: 0.8; /* Transparansi titik */
+    }
+
+    .swiper-pagination-bullet-active {
+    background-color: #ff0000; /* Warna titik pagination saat aktif */
+    }
+
+    /* Peletakan pagination di bawah slider */
+    .swiper-pagination {
+    bottom: 0px !important; /* Sesuaikan jarak dari bawah */
+    }
+
+    
+
+    /* Animation */
+
+    @keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+        body {
+            overflow-x: hidden !important;
+        }
+
+        .icon-timeline {
+            display: none !important;
+        }
+
+        .icon-timeline {
+            font-size: 10px !important;
+        }
+
+        .flower-left, .flower-right {
+            width: 130px !important;
+        }
+
+        .flower-left {
+            display: none;
+        }
+
+        .flower-right {
+            right: 1px !important;
+        }
+
+        .bottom-bar {
+            display: none !important;
+        }
+
+        .heart-icon {
+            display: none !important;
+        }
+
+        .baris-1 img {
+            margin-bottom: 18px;
+        }
+        .baris-2 img {
+            margin-bottom: 18px;
+        }
+
+        .divider::before, .divider::after {
+            width: 10%;
+        }
+
+        .timeline .timeline-panel {
+           font-size: 10px;
+        }
+
+        .formPesan {
+            margin-bottom: 20px !important;
+        }
+
+        .timeline .timeline-badge {
+          width: 30px;
+          height: 30px;
+          left: 52%;
+          transform: translateY(-10px); /* Menggeser icon ke atas */
+        }
+
+    }
